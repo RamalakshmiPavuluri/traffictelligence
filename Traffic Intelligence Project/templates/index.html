@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traffic Volume Prediction</title>
+</head>
+<body>
+    <h2>Traffic Volume Prediction</h2>
+    <form action="/predict" method="post">
+        <label>Holiday:</label>
+        <input type="text" name="holiday"><br><br>
+        <label>Temp:</label>
+        <input type="text" name="temp"><br><br>
+        <label>Rain:</label>
+        <input type="text" name="rain"><br><br>
+        <label>Snow:</label>
+        <input type="text" name="snow"><br><br>
+        <label>Weather:</label>
+        <input type="text" name="weather"><br><br>
+        <label>Year:</label>
+        <input type="text" name="year"><br><br>
+        <label>Month:</label>
+        <input type="text" name="month"><br><br>
+        <label>Day:</label>
+        <input type="text" name="day"><br><br>
+        <label>Hour:</label>
+        <input type="text" name="hour"><br><br>
+        <button type="submit">Predict</button>
+    </form>
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
