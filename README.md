@@ -42,3 +42,5 @@ Run the app:
 
 
 python app.py
+
+*******To run this project Download the zip file and extract the code files as these exceeded the size we compressed into the zip file.
